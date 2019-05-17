@@ -1,0 +1,7 @@
+/LoanCalculator/packages
+/LoanCalculator/TestResults
+/LoanCalculator/LoanCalculator.Services/bin
+/LoanCalculator/LoanCalculator.Services/obj
+/LoanCalculator/LoanCalculator.Tests/bin
+/LoanCalculator/LoanCalculator.Tests/obj
+/LoanCalculator/LoanCalculator.WebApi/bin

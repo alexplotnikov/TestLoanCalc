@@ -61,8 +61,8 @@
   <ItemGroup>
     <Compile Include="Controllers\LoanSummaryControllerTest.cs" />
     <Compile Include="Controllers\RepaymentScheduleControllerTest.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\LoanCalculatorServiceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

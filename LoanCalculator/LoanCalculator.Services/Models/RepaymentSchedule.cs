@@ -9,11 +9,6 @@ namespace LoanCalculator.Services.Models
             Installments = new List<Installment>();
         }
 
-        public RepaymentSchedule(ICollection<Installment> installments)
-        {
-            Installments = installments;
-        }
-
         public ICollection<Installment> Installments { get; }
     }
 }
