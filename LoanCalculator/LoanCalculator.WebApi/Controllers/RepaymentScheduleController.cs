@@ -1,4 +1,5 @@
-﻿using LoanCalculator.Services.Models;
+﻿using LoanCalculator.Services;
+using LoanCalculator.Services.Models;
 using System.Web.Http;
 
 namespace LoanCalculator.WebApi.Controllers
@@ -10,7 +11,8 @@ namespace LoanCalculator.WebApi.Controllers
             [FromUri] decimal amount,
             [FromUri] int apr)
         {
-            return new RepaymentSchedule();
+            var loanCalculationService = new LoanCalculationService();
+            return loanCalculationService.GetRepaymentSchedule(amount, apr);
         }
     }
 }
